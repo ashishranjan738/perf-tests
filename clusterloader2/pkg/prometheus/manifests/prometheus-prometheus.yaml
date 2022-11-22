@@ -81,4 +81,4 @@ spec:
         - name: aws-sigv4-proxy
           containerPort: 8005
   remoteWrite:
-    - url: http://localhost:8005/workspaces/ws-4fb7735e-f248-4bcf-9217-ff64980e52ef/api/v1/remote_write
+    - url: http://localhost:8005/workspaces/ws-2dccb0da-11de-4983-b871-c9bf2a0ed21a/api/v1/remote_write
