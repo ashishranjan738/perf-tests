@@ -14,6 +14,7 @@ parameters:
 volumeBindingMode: WaitForFirstConsumer
 allowVolumeExpansion: true
 {{else}}
+volumeBindingMode: WaitForFirstConsumer
 parameters:
   type: {{$PROMETHEUS_STORAGE_CLASS_VOLUME_TYPE}}
 {{end}}
